@@ -1,0 +1,24 @@
+.UserCard {
+  position: relative;
+}
+
+.Albums {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Card {
+  flex-direction: column;
+  padding: 15px;
+  color: #222;
+  border: 1px solid #ccc;
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.Card:hover {
+  background-color: #d136f4;
+}
